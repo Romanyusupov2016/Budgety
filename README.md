@@ -5,4 +5,4 @@
 
 This app works in the latest versions of Chrome. It doesn't work in Firefox for Linux.
 
-<p>MVC Budgety application plot<br><img src="mvc.png"></p>
+<p>MVC Budgety application plot:<br><img src="mvc.png" width="350" height="auto"></p>
