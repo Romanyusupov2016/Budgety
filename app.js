@@ -370,8 +370,8 @@ var controller = (function(budgetCtrl, UICtrl) {
     var ctrlDeleteItem = function(event) {
         var itemID, splitID, type, ID;
 
-        itemID = event.target.parentNode.parentNode.parentNode.parentNode.id;
-
+        itemID = event.target.parentNode.parentNode.parentNode.parentNode.id; // event.target - in Firefox for Linux is not as expected, so 
+                                                                              // the app doesn't work in this browser.
         if (itemID) {
             splitID = itemID.split('-');
             type = splitID[0];
